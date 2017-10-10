@@ -10,7 +10,7 @@ Created on Jan 31, 2014
 '''
 
 # Go to http://dev.twitter.com and create an app.
-# The consumer key and secret will be generated for you after
+# The consumer key and secret will be generated for you
 
 consumer_key='knqqNYwjNhtWcMnxpUObvg'
 consumer_secret='RREaeKlFwSMNTK98E61DF6MLYJ3aXrsw9BeBAzo'
