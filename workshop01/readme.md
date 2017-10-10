@@ -18,11 +18,11 @@
 - Github
 
 
-### Twtreams
+### TwStreams
 
-Go to http://dev.twitter.com and create an app.
+Go to http://dev.twitter.com and create an app key.
 
-### Twarchives
+### TwArchives
 
 Data Source: [Internet Archives](https://archive.org/search.php?query=ArchiveTeam+JSON+Download+of+Twitter+Stream&sort=-date)
 
