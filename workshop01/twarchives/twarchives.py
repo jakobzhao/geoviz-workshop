@@ -7,10 +7,12 @@ import fnmatch
 import json
 from pymongo import MongoClient, errors
 
+from settings import user, psw
 
-client = MongoClient("localhost", 27017)
-db = client["msa"]
 
+client = MongoClient("mapious.ceoas.oregonstate.edu", 27017, username=user, password=psw)
+
+db = client["geoviz"]
 
 # twfile = open("2013.json", "w")
 
