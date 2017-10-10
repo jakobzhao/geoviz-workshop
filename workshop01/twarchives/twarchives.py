@@ -14,7 +14,9 @@ db = client["msa"]
 
 # twfile = open("2013.json", "w")
 
-for root, dir, files in os.walk("data/14"):
+path = "data/14"
+
+for root, dir, files in os.walk(path):
         for item in fnmatch.filter(files, "*"):
             print "..." + item
             if "bz2" not in item:
@@ -26,8 +28,7 @@ for root, dir, files in os.walk("data/14"):
             except:
                 print "decompress error!"
             for line in lines:
-                #if '"geo":{' in line and json.loads(line)['geo'] != None:
-                if 'love' in line and json.loads(line)['geo'] != None:
+                if '"geo":{' in line and json.loads(line)['geo'] != None:
                     [lat, lng] = json.loads(line)['geo']['coordinates']
                     if lat > 32.47269502206151 and lat < 33.6031820405205 and lng >  -80.8154296875 and lng < -79.20318603515625:
                         print line
