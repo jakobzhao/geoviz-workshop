@@ -1,7 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
 workshop01/twstreams/settings.py
 .idea/workspace.xml
+.idea
 workshop01/twarchives/
 workshop01/twstreams/data/tweets.sqlite
-workshop01/twstreams/data/tweets_cmh.sqlite
 workshop01/twstreams/settings.pyc
