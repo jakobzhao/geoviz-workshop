@@ -23,6 +23,5 @@ for root, dir, files in os.walk(path):
                 if 'love' in line:
                     twfile.write(line)
                     print line
-
 twfile.close()
 print "completed"
