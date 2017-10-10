@@ -3,3 +3,5 @@
 /workshop01/twarchives/settings.py
 /.idea
 /workshop01/twstreams/data/tweets.sqlite
+workshop01/twarchives/settings.pyc
+workshop01/twstreams/settings.pyc
