@@ -5,3 +5,4 @@ workshop01/twstreams/settings.py
 workshop01/twarchives/
 workshop01/twstreams/data/tweets.sqlite
 workshop01/twstreams/settings.pyc
+workshop01/twstreams/data/tweets_cmh.sqlite
