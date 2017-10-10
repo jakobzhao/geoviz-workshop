@@ -3,7 +3,7 @@
 
 ## Workshop 01
 
- [Hands-on wit Twitter](workshop01/readme.md)
+ [Hands-on with Twitter Data](workshop01/readme.md)
 
 ## Team
 
